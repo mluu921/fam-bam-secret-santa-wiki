@@ -1,11 +1,13 @@
 ---
-title: "fam-bam-secret-santa-wiki"
+echo: false
+warning: false
+message: false
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
 ```{r}
-1 + 1
+#| column: page
+#| out-width: 100%
+
+knitr::include_app('https://michaelluu.info/fam-bam-secret-santa-dashboard/', height = 1080)
 ```
+
